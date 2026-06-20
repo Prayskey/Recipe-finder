@@ -2,7 +2,7 @@ import { useState } from "react";
 import { Link } from "react-router-dom";
 import { Menu, X } from "lucide-react";
 
-const NAV_ITEMS = ["Ingredients", "Recipes", "Tips", "About"];
+const NAV_ITEMS = ["Home", "Recipes", "Contact", "About"];
 
 export default function Header() {
   const [mobileOpen, setMobileOpen] = useState(false);

@@ -5,6 +5,7 @@ import About from "./pages/About";
 import PageNotFound from "./pages/PageNotFound";
 import RecipeResults from "./components/RecipeResults";
 import RecipeCardContent from "./pages/RecipeCardContent";
+import Contact from "./pages/Contact";
 
 function App() {
   return (
@@ -12,7 +13,9 @@ function App() {
       <Header />
       <Routes>
         <Route path="/" element={<Home />} />
+        <Route path="/home" element={<Home />} />
         <Route path="/recipes" element={<RecipeResults />} />
+        <Route path="/contact" element={<Contact />} />
         <Route path="/about" element={<About />} />
         <Route path="/:title/:id" element={<RecipeCardContent />} />
         <Route path="*" element={<PageNotFound />} />
