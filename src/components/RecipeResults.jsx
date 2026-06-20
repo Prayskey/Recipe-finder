@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 
 export default function RecipeResults() {
   return (
-    <main className="mx-auto mt-32 max-w-7xl px-6 pb-20">
+    <main className="mx-auto mt-24 max-w-7xl px-6 pb-20">
       {/* Result Details */}
       <section className="mb-12 flex items-end justify-between">
         <div className="flex flex-col">
